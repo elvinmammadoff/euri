@@ -1,0 +1,40 @@
+@media (max-width: 1024px) {
+.euri-portfolio-grid-2col .euri-portfolio-item, .euri-portfolio-grid-3col .euri-portfolio-item, .euri-portfolio-grid-4col .euri-portfolio-item { width: 50%; }
+}
+
+@media (max-width: 992px) {
+.hero-section { padding-top: 50px; padding-bottom: 50px; }
+.section-padding { padding-top: 50px; padding-bottom: 50px; }
+.euri-hero-about { display: block; margin-top: 50px; }
+.container { width: 100%; max-width: 100%; }
+#euri-topbar, .sf-sub-indicator {
+  display: none;
+}
+.main-navigation .sf-menu { display: flex; flex-direction: column; position: fixed; left: 110%; top: 82px; width: 100%; height: 100%; background-color: var(--euri-base-color-primary); }
+.euri-header-btn { margin-right: 20px; }
+.main-navigation .sf-menu.is-active { left: 0; }
+.main-navigation .sf-menu.is-active a { padding-top: 15px; padding-bottom: 15px; }
+#euri-responsive-header, .slicknav_menu, #euri-menu-button { display: block; }
+.spacer-sm-30 { height: 30px; }
+.euri-page-title--section { padding: 50px 0 50px 0; }
+.euri-page-title__heading { font-size: 2.5em; line-height: 1.3em; }
+.error-404 { margin-top: 0; }
+.euri-skills-wrapper { width: 100%; display: block; }
+.euri-portfolio__head-wrapper { display: block; }
+.euri-filter-nav { justify-content: flex-start; margin-top: 20px; }
+}
+
+@media (max-width: 782px) {
+.euri-portfolio-grid-2col, .euri-portfolio-grid-3col, .euri-portfolio-grid-4col { margin: 0; }
+.euri-portfolio-grid-2col .euri-portfolio-item, .euri-portfolio-grid-3col .euri-portfolio-item, .euri-portfolio-grid-4col .euri-portfolio-item { width: 100%; padding: 0; }
+}
+
+@media only screen and (max-width: 600px) {
+.heading-404 { font-size: 4em; }
+}
+
+@media (min-width: 992px) {
+  #euri-menu-button {
+    display: none;
+  }
+}
